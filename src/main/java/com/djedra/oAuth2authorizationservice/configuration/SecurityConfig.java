@@ -10,7 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Configuration
 @Order(1)
-//dlaczego w innych przykładach to jest po stronie resource server?
+//dlaczego w innych przykładach to jest po stronie resource server a tutaj po obu stronach?
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
     
